@@ -149,6 +149,7 @@
 <script>
 export default {
   components: {
+    // eslint-disable-next-line
     carousel: typeof window !== 'undefined' ? () => import('vue-owl-carousel2') : ''
   }
 }

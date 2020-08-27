@@ -1,20 +1,16 @@
 <template>
-  <main>
-    <SliderArea />
-    <ServicesArea />
-    <CoursesArea />
+  <div>
+    <PageTitle title="About Us" />
+    <ServicesArea :version2="true" />
     <AboutArea />
     <SubjectsArea />
     <AboutArea2 />
-    <TeamArea />
     <AboutArea3 />
-  </main>
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style>

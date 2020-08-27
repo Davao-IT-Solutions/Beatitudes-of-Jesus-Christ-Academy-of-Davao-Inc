@@ -1,5 +1,5 @@
 <template>
-  <div class="services-area">
+  <div class="services-area" :class="{ 'services-area2 section-padding40' : version2 }">
     <div class="container">
       <div class="row justify-content-sm-center">
         <div class="col-lg-4 col-md-6 col-sm-8">
@@ -42,7 +42,12 @@
 
 <script>
 export default {
-
+  props: {
+    version2: {
+      type: Boolean,
+      default: false
+    }
+  }
 }
 </script>
 

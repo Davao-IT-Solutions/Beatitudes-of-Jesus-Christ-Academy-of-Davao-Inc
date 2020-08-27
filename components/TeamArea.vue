@@ -4,7 +4,7 @@
       <div class="row justify-content-center">
         <div class="col-xl-7 col-lg-8">
           <div class="section-tittle text-center mb-55">
-            <h2>Community experts</h2>
+            <h2>Our Teachers</h2>
           </div>
         </div>
       </div>
@@ -59,6 +59,15 @@
           </carousel>
         </no-ssr>
       </div>
+      <div class="row justify-content-center">
+        <div class="col-xl-12">
+          <div class="section-tittle text-center mt-20">
+            <nuxt-link to="/our-teachers" class="border-btn">
+              View All Teachers
+            </nuxt-link>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -67,6 +76,7 @@
 
 export default {
   components: {
+    // eslint-disable-next-line
     carousel: typeof window !== 'undefined' ? () => import('vue-owl-carousel2') : ''
   }
 }

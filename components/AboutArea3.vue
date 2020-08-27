@@ -18,7 +18,7 @@
               with us.
             </h2>
             <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
-            <a href="#" class="btn">Join now for Free</a>
+            <a href="#" class="btn">Enroll Now</a>
           </div>
         </div>
       </div>

@@ -2,14 +2,14 @@
   <header>
     <div class="header-area header-transparent">
       <div class="main-header">
-        <div class="header-bottom header-sticky">
+        <div class="header-bottom header-sticky" :class="{'sticky-bar': stickyBar}">
           <div class="container-fluid">
             <div class="row align-items-center">
               <!-- Logo -->
               <div class="col-xl-2 col-lg-2">
                 <div class="logo">
                   <nuxt-link to="/">
-                    <img src="/img/logo/logo.png" alt>
+                    <img src="/img/logo/bjcad_logo2.png" alt>
                   </nuxt-link>
                 </div>
               </div>
@@ -19,15 +19,24 @@
                   <div class="main-menu d-none d-lg-block">
                     <nav>
                       <ul id="navigation">
-                        <li class="active">
-                          <a href="index.html">Home</a>
+                        <li>
+                          <nuxt-link to="/">
+                            Home
+                          </nuxt-link>
                         </li>
                         <li>
-                          <a href="courses.html">Courses</a>
+                          <nuxt-link to="/about">
+                            About Us
+                          </nuxt-link>
+                          <ul class="submenu">
+                            <li>
+                              <nuxt-link to="/our-teachers">
+                                Our Teachers
+                              </nuxt-link>
+                            </li>
+                          </ul>
                         </li>
-                        <li>
-                          <a href="about.html">About</a>
-                        </li>
+                        <!--
                         <li>
                           <a href="#">Blog</a>
                           <ul class="submenu">
@@ -42,15 +51,18 @@
                             </li>
                           </ul>
                         </li>
+                        -->
                         <li>
-                          <a href="contact.html">Contact</a>
+                          <nuxt-link to="/contact">
+                            Contact
+                          </nuxt-link>
                         </li>
                         <!-- Button -->
                         <li class="button-header margin-left">
-                          <a href="#" class="btn">Join</a>
+                          <a href="/enroll" class="btn">Enroll Now</a>
                         </li>
                         <li class="button-header">
-                          <a href="login.html" class="btn btn3">Log in</a>
+                          <a href="/classroom" class="btn btn3">My Classroom</a>
                         </li>
                       </ul>
                     </nav>
@@ -70,7 +82,30 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      stickyBar: false
+    }
+  },
+  mounted () {
+    // eslint-disable-next-line
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  destroyed () {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    handleScroll (event) {
+      // eslint-disable-next-line no-console
+      if (window.scrollY > 200) {
+        this.stickyBar = true
+      } else {
+        this.stickyBar = false
+      }
+    }
+  }
+}
 </script>
 
 <style>

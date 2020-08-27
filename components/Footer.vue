@@ -11,7 +11,7 @@
                   <!-- logo -->
                   <div class="footer-logo mb-25">
                     <nuxt-link to="/">
-                      <img src="/img/logo/logo2_footer.png" alt="">
+                      <img src="/img/logo/bjcad_logo2.png" alt="Beatitudes Logo">
                     </nuxt-link>
                   </div>
                   <div class="footer-tittle">
@@ -22,7 +22,7 @@
                   <!-- social -->
                   <div class="footer-social">
                     <a href="#"><i class="fab fa-twitter" /></a>
-                    <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f" /></a>
+                    <a href="#"><i class="fab fa-facebook-f" /></a>
                     <a href="#"><i class="fab fa-pinterest-p" /></a>
                   </div>
                 </div>
@@ -82,7 +82,7 @@
                 <div class="footer-copy-right text-center">
                   <p>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy; 2020 All rights reserved &middot;
+                    Copyright &copy; {{ currentYear }} All rights reserved &middot;
                     This template is made with <i class="fa fa-heart" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                     &middot; <a href="https://www.davao.me" target="_blank">Davao IT Solutions</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -100,7 +100,11 @@
 
 <script>
 export default {
-
+  data () {
+    return {
+      currentYear: new Date().getFullYear()
+    }
+  }
 }
 </script>
 
