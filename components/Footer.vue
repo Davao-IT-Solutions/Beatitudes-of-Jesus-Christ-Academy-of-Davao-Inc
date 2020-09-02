@@ -11,64 +11,56 @@
                   <!-- logo -->
                   <div class="footer-logo mb-25">
                     <nuxt-link to="/">
-                      <img src="/img/logo/bjcad_logo2.png" alt="Beatitudes Logo">
+                      <img src="/img/logo/bjcad_logo2.png" alt="Beatitudes Logo" style="width: 90%;">
                     </nuxt-link>
                   </div>
                   <div class="footer-tittle">
                     <div class="footer-pera">
-                      <p>The automated process starts as soon as your clothes go into the machine.</p>
+                      <p>A Christian Educational Institution offering quality Christian education.</p>
                     </div>
                   </div>
                   <!-- social -->
                   <div class="footer-social">
-                    <a href="#"><i class="fab fa-twitter" /></a>
-                    <a href="#"><i class="fab fa-facebook-f" /></a>
-                    <a href="#"><i class="fab fa-pinterest-p" /></a>
+                    <a target="_blank" href="https://www.facebook.com/Beatitudes-of-Jesus-Christ-Academy-of-Davao-Inc-156870594835472/about/?ref=page_internal"><i class="fab fa-facebook-f" /></a>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
-              <div class="single-footer-caption mb-50">
-                <div class="footer-tittle">
-                  <h4>Our solutions</h4>
-                  <ul>
-                    <li><a href="#">Design & creatives</a></li>
-                    <li><a href="#">Telecommunication</a></li>
-                    <li><a href="#">Restaurant</a></li>
-                    <li><a href="#">Programing</a></li>
-                    <li><a href="#">Architecture</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
-              <div class="single-footer-caption mb-50">
-                <div class="footer-tittle">
-                  <h4>Support</h4>
-                  <ul>
-                    <li><a href="#">Design & creatives</a></li>
-                    <li><a href="#">Telecommunication</a></li>
-                    <li><a href="#">Restaurant</a></li>
-                    <li><a href="#">Programing</a></li>
-                    <li><a href="#">Architecture</a></li>
-                  </ul>
                 </div>
               </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
               <div class="single-footer-caption mb-50">
                 <div class="footer-tittle">
-                  <h4>Company</h4>
+                  <h4>Explore</h4>
                   <ul>
-                    <li><a href="#">Design & creatives</a></li>
-                    <li><a href="#">Telecommunication</a></li>
-                    <li><a href="#">Restaurant</a></li>
-                    <li><a href="#">Programing</a></li>
-                    <li><a href="#">Architecture</a></li>
+                    <li>
+                      <nuxt-link to="/about">
+                        About Us
+                      </nuxt-link>
+                    </li>
+                    <li>
+                      <nuxt-link to="/our-teachers">
+                        Our Teachers
+                      </nuxt-link>
+                    </li>
+                    <li>
+                      <nuxt-link to="/contact">
+                        Contact Us
+                      </nuxt-link>
+                    </li>
                   </ul>
                 </div>
               </div>
+            </div>
+            <div class="col-xl-6 col-lg-5 col-md-4 col-sm-6">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7918.309928519346!2d125.50035041826389!3d7.108033239169518!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa655ce80b50f674c!2sBeatitudes%20Of%20Jesus%20Christ%20Academy%20Of%20Davao!5e0!3m2!1sen!2sph!4v1598544082850!5m2!1sen!2sph"
+                width="100%"
+                height="250"
+                frameborder="0"
+                style="border:0;"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              />
             </div>
           </div>
         </div>
@@ -82,9 +74,9 @@
                 <div class="footer-copy-right text-center">
                   <p>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy; {{ currentYear }} All rights reserved &middot;
-                    This template is made with <i class="fa fa-heart" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                    &middot; <a href="https://www.davao.me" target="_blank">Davao IT Solutions</a>
+                    Copyright &copy; {{ currentYear }} All rights reserved <br>
+                    Made with <i class="fa fa-heart" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    &middot; Developed by <a href="https://www.davao.me" target="_blank">Davao IT Solutions</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                   </p>
                 </div>

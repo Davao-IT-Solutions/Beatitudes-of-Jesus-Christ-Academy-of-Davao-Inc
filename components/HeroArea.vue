@@ -8,10 +8,10 @@
             <div class="col-xl-6 col-lg-7 col-md-12">
               <div class="hero__caption">
                 <h1 data-animation="fadeInLeft" aos-delay="0.2s">
-                  Online learning platform
+                  A Christian Educational Institution
                 </h1>
                 <p data-animation="fadeInLeft" data-delay="0.4s">
-                  Build skills with courses, certificates, and degrees online from world-class universities and companies
+                  We offer quality Christian Education
                 </p>
                 <nuxt-link to="/about" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.7s">
                   Learn More

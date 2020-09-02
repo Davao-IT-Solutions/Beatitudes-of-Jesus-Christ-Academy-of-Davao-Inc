@@ -28,41 +28,24 @@
                           <nuxt-link to="/about">
                             About Us
                           </nuxt-link>
-                          <ul class="submenu">
-                            <li>
-                              <nuxt-link to="/our-teachers">
-                                Our Teachers
-                              </nuxt-link>
-                            </li>
-                          </ul>
                         </li>
-                        <!--
                         <li>
-                          <a href="#">Blog</a>
-                          <ul class="submenu">
-                            <li>
-                              <a href="blog.html">Blog</a>
-                            </li>
-                            <li>
-                              <a href="blog_details.html">Blog Details</a>
-                            </li>
-                            <li>
-                              <a href="elements.html">Element</a>
-                            </li>
-                          </ul>
+                          <nuxt-link to="/our-teachers">
+                            Our Teachers
+                          </nuxt-link>
                         </li>
-                        -->
                         <li>
                           <nuxt-link to="/contact">
                             Contact
                           </nuxt-link>
                         </li>
-                        <!-- Button -->
+                        <!-- Button
                         <li class="button-header margin-left">
                           <a href="/enroll" class="btn">Enroll Now</a>
                         </li>
-                        <li class="button-header">
-                          <a href="/classroom" class="btn btn3">My Classroom</a>
+                        -->
+                        <li class="button-header margin-left">
+                          <a target="_blank" href="https://vsmart.vibalgroup.com/account/login" class="btn">My Classroom</a>
                         </li>
                       </ul>
                     </nav>

@@ -3,13 +3,13 @@
     <div class="container">
       <div class="team-active">
         <div class="row">
-          <div v-for="teacher in teachers" :key="teacher" class="col-md-3">
+          <div v-for="teacher in teachers" :key="teacher.name" class="col-md-3">
             <div class="single-cat text-center">
               <div class="cat-icon">
                 <img :src="teacher.image" alt="">
               </div>
               <div class="cat-cap">
-                <h5><a href="#">{{ teacher.name }}</a></h5>
+                <h5><a target="_blank" :href="teacher.fb">{{ teacher.name }}</a></h5>
                 <p>{{ teacher.subject }}</p>
               </div>
             </div>
@@ -26,64 +26,88 @@ export default {
     return {
       teachers: [
         {
-          name: 'Mr. Urela',
-          subject: 'Subject 1, Subject 2, Subject 3',
-          image: '/img/gallery/team1.png'
+          name: 'Danmerlou Galindo',
+          subject: 'Prekinder & Kindergarten',
+          image: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/teach.dan.31'
         },
         {
-          name: 'Mr. Urela2',
-          subject: 'Subject 1, Subject 2, Subject 3',
-          image: '/img/gallery/team2.png'
+          name: 'Jaryl Lucena',
+          subject: 'Nursery & Kindergarten',
+          image: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/teachers.jaryl.3'
         },
         {
-          name: 'Mr. Urela2',
-          subject: 'Subject 1, Subject 2, Subject 3',
-          image: '/img/gallery/team3.png'
+          name: 'Bernardine Tan',
+          subject: 'Grade 6',
+          image: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/bernardine.tan.16'
         },
         {
-          name: 'Mr. Urela2',
-          subject: 'Subject 1, Subject 2, Subject 3',
-          image: '/img/gallery/team4.png'
+          name: 'Mary Joy Bentulan',
+          subject: 'Grade 6',
+          image: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/joy.mjbentulan'
         },
         {
-          name: 'Mr. Urela2',
-          subject: 'Subject 1, Subject 2, Subject 3',
-          image: '/img/gallery/team1.png'
+          name: 'Ryan Corella',
+          subject: 'Grade 5',
+          image: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/ryan.corella.54'
         },
         {
-          name: 'Mr. Urela2',
-          subject: 'Subject 1, Subject 2, Subject 3',
-          image: '/img/gallery/team2.png'
+          name: 'Cheryl Canillo',
+          subject: 'Grade 5',
+          image: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/teach.cheryl'
         },
         {
-          name: 'Mr. Urela2',
-          subject: 'Subject 1, Subject 2, Subject 3',
-          image: '/img/gallery/team3.png'
+          name: 'Wilson Quidet',
+          subject: 'Grade 4',
+          image: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/teachwilson.quidet'
         },
         {
-          name: 'Mr. Urela2',
-          subject: 'Subject 1, Subject 2, Subject 3',
-          image: '/img/gallery/team4.png'
+          name: 'Liezyl Descallar',
+          subject: 'Grade 4',
+          image: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/nikka.zhane.7'
         },
         {
-          name: 'Mr. Urela2',
-          subject: 'Subject 1, Subject 2, Subject 3',
-          image: '/img/gallery/team4.png'
+          name: 'Julyka Grace Flores',
+          subject: 'Grade 3',
+          image: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/teach.lyka'
         },
         {
-          name: 'Mr. Urela2',
-          subject: 'Subject 1, Subject 2, Subject 3',
-          image: '/img/gallery/team1.png'
+          name: 'Marlou Jade Alivio',
+          subject: 'Grade 3',
+          image: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/jade.alivio.3762'
         },
         {
-          name: 'Mr. Urela2',
-          subject: 'Subject 1, Subject 2, Subject 3',
-          image: '/img/gallery/team3.png'
+          name: 'Jaynnie Allyza Vigonte',
+          subject: 'Grade 2',
+          image: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/teachjayn.vigonte'
         },
         {
-          name: 'Mr. Urela2',
-          subject: 'Subject 1, Subject 2, Subject 3',
-          image: '/img/gallery/team2.png'
+          name: 'Rica Mae Jubac',
+          subject: 'Grade 2',
+          image: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/rica.jubac'
+        },
+        {
+          name: 'Josephine Mediano',
+          subject: 'Grade 1',
+          image: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/josephine.mediano'
+        },
+        {
+          name: 'Elvie Manlanat',
+          subject: 'Grade 1',
+          image: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/elvieghee.manlanat'
         }
       ]
     }

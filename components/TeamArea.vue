@@ -4,69 +4,24 @@
       <div class="row justify-content-center">
         <div class="col-xl-7 col-lg-8">
           <div class="section-tittle text-center mb-55">
-            <h2>Our Teachers</h2>
+            <h2>Management & Staff</h2>
           </div>
         </div>
       </div>
       <div class="team-active">
         <no-ssr>
           <carousel :nav="false" :items="4">
-            <div class="single-cat text-center">
+            <div v-for="m in team" :key="m.name" class="single-cat text-center">
               <div class="cat-icon">
-                <img src="/img/gallery/team1.png" alt="">
+                <img :src="m.pic" alt="">
               </div>
               <div class="cat-cap">
-                <h5><a href="services.html">Mr. Urela</a></h5>
-                <p>The automated process all your website tasks.</p>
-              </div>
-            </div>
-            <div class="single-cat text-center">
-              <div class="cat-icon">
-                <img src="/img/gallery/team2.png" alt="">
-              </div>
-              <div class="cat-cap">
-                <h5><a href="services.html">Mr. Uttom</a></h5>
-                <p>The automated process all your website tasks.</p>
-              </div>
-            </div>
-            <div class="single-cat text-center">
-              <div class="cat-icon">
-                <img src="/img/gallery/team3.png" alt="">
-              </div>
-              <div class="cat-cap">
-                <h5><a href="services.html">Mr. Shakil</a></h5>
-                <p>The automated process all your website tasks.</p>
-              </div>
-            </div>
-            <div class="single-cat text-center">
-              <div class="cat-icon">
-                <img src="/img/gallery/team4.png" alt="">
-              </div>
-              <div class="cat-cap">
-                <h5><a href="services.html">Mr. Arafat</a></h5>
-                <p>The automated process all your website tasks.</p>
-              </div>
-            </div>
-            <div class="single-cat text-center">
-              <div class="cat-icon">
-                <img src="/img/gallery/team3.png" alt="">
-              </div>
-              <div class="cat-cap">
-                <h5><a href="services.html">Mr. saiful</a></h5>
-                <p>The automated process all your website tasks.</p>
+                <h5><a target="_blank" :href="m.fb">{{ m.name }}</a></h5>
+                <p>{{ m.position }}</p>
               </div>
             </div>
           </carousel>
         </no-ssr>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-xl-12">
-          <div class="section-tittle text-center mt-20">
-            <nuxt-link to="/our-teachers" class="border-btn">
-              View All Teachers
-            </nuxt-link>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -78,6 +33,48 @@ export default {
   components: {
     // eslint-disable-next-line
     carousel: typeof window !== 'undefined' ? () => import('vue-owl-carousel2') : ''
+  },
+  data () {
+    return {
+      team: [
+        {
+          name: 'Rebecca L. Ultiano',
+          position: 'Directress',
+          pic: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/rebecca.ultiano'
+        },
+        {
+          name: 'Eunice Ultiano-Dandan',
+          position: 'Principal',
+          pic: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/eunice.ultiano'
+        },
+        {
+          name: 'Jerome F. Dandan',
+          position: 'Administrative Officer',
+          pic: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/jerome.dandan.5'
+        },
+        {
+          name: 'Ree Anne L. Ultiano',
+          position: 'Registrar',
+          pic: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/RAyhang2x'
+        },
+        {
+          name: 'Jennie Louise A. Lucena',
+          position: 'Admin Staff',
+          pic: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/jennie.lucena.9'
+        },
+        {
+          name: 'Eiugine L. Ultiano',
+          position: 'Administrative Officer',
+          pic: '/img/gallery/team5.png',
+          fb: 'https://www.facebook.com/eugineu'
+        }
+      ]
+    }
   }
 }
 </script>

@@ -1,56 +1,44 @@
 <template>
   <section class="about-area1 fix pt-10">
     <div class="support-wrapper align-items-center">
-      <div class="left-content1">
-        <div class="about-icon">
-          <img src="/img/icon/about.svg" alt="">
-        </div>
+      <div class="left-content1 mt-5">
         <!-- section tittle -->
         <div class="section-tittle section-tittle2 mb-55">
           <div class="front-text">
             <h2 class="">
-              Learn new skills online with top educators
+              Vision
             </h2>
             <p>
-              The automated process all your website tasks. Discover tools and
-              techniques to engage effectively with vulnerable children and young
-              people.
+              Every child maximized his God-given potentials that enable him to dream big and reach for it.
+            </p>
+            <h2 class="">
+              Mission
+            </h2>
+            <p>
+              Every child maximized his God-given potentials that enable him to dream big and reach for it.
             </p>
           </div>
         </div>
-        <div class="single-features">
-          <div class="features-icon">
-            <img src="/img/icon/right-icon.svg" alt="">
-          </div>
-          <div class="features-caption">
-            <p>Techniques to engage effectively with vulnerable children and young people.</p>
-          </div>
-        </div>
-        <div class="single-features">
-          <div class="features-icon">
-            <img src="/img/icon/right-icon.svg" alt="">
-          </div>
-          <div class="features-caption">
-            <p>Join millions of people from around the world  learning together.</p>
-          </div>
-        </div>
-
-        <div class="single-features">
-          <div class="features-icon">
-            <img src="/img/icon/right-icon.svg" alt="">
-          </div>
-          <div class="features-caption">
-            <p>Join millions of people from around the world learning together. Online learning is as easy and natural.</p>
-          </div>
-        </div>
       </div>
-      <div class="right-content1">
-        <!-- img -->
-        <div class="right-img">
-          <img src="/img/gallery/about.png" alt="">
+      <div class="right-content1 mt-5">
+        <div class="section-tittle section-tittle2 mb-55">
+          <div class="front-text">
+            <h2 class="">
+              Biblical References
+            </h2>
+            <p>
+              <strong>Proverbs 22:6</strong>
+            </p>
+            <p>
+              “Train up a child in the way he should go, and when he is old he will not depart from it.”
+            </p>
 
-          <div class="video-icon">
-            <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=up68UAfH0d0"><i class="fas fa-play" /></a>
+            <p>
+              <strong>Luke 2:52</strong>
+            </p>
+            <p>
+              “And Jesus grew in wisdom and stature, and in favor with God and man.”
+            </p>
           </div>
         </div>
       </div>

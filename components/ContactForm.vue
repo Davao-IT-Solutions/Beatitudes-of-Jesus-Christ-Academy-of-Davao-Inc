@@ -19,7 +19,7 @@
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-tablet" /></span>
             <div class="media-body">
-              <h3>+63 (082) 123-4567</h3>
+              <h3>+63 (082) 287-2548</h3>
               <p>Mon to Fri 9am to 6pm</p>
             </div>
           </div>
