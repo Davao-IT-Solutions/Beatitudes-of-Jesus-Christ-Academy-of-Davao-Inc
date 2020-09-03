@@ -4,7 +4,7 @@
       <div class="row justify-content-center">
         <div class="col-xl-7 col-lg-8">
           <div class="section-tittle text-center mb-55">
-            <h2>Management & Staff</h2>
+            <h2>Admin & Staff</h2>
           </div>
         </div>
       </div>
@@ -40,37 +40,37 @@ export default {
         {
           name: 'Rebecca L. Ultiano',
           position: 'Directress',
-          pic: '/img/gallery/team5.png',
+          pic: '/img/pics/REBECCA ULTIANO.jpg',
           fb: 'https://www.facebook.com/rebecca.ultiano'
         },
         {
           name: 'Eunice Ultiano-Dandan',
           position: 'Principal',
-          pic: '/img/gallery/team5.png',
+          pic: '/img/pics/EUNICE U. DANDAN.jpg',
           fb: 'https://www.facebook.com/eunice.ultiano'
         },
         {
           name: 'Jerome F. Dandan',
           position: 'Administrative Officer',
-          pic: '/img/gallery/team5.png',
+          pic: '/img/pics/JEROME DANDAN.jpg',
           fb: 'https://www.facebook.com/jerome.dandan.5'
         },
         {
           name: 'Ree Anne L. Ultiano',
           position: 'Registrar',
-          pic: '/img/gallery/team5.png',
+          pic: '/img/pics/REE ANNE ULTIANO.jpg',
           fb: 'https://www.facebook.com/RAyhang2x'
         },
         {
           name: 'Jennie Louise A. Lucena',
           position: 'Admin Staff',
-          pic: '/img/gallery/team5.png',
+          pic: '/img/pics/JENNIE LUCENA.jpg',
           fb: 'https://www.facebook.com/jennie.lucena.9'
         },
         {
           name: 'Eiugine L. Ultiano',
           position: 'Administrative Officer',
-          pic: '/img/gallery/team5.png',
+          pic: '/img/pics/EIUIGINE ULTIANO.jpg',
           fb: 'https://www.facebook.com/eugineu'
         }
       ]
