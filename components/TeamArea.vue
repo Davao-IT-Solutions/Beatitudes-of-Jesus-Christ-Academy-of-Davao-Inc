@@ -62,16 +62,16 @@ export default {
           fb: 'https://www.facebook.com/RAyhang2x'
         },
         {
-          name: 'Jennie Louise Lucena',
-          position: 'Admin Staff',
-          pic: '/img/pics/JENNIE LUCENA.jpg',
-          fb: 'https://www.facebook.com/jennie.lucena.9'
-        },
-        {
           name: 'Eiugine Ultiano',
           position: 'Administrative Officer',
           pic: '/img/pics/EIUIGINE ULTIANO.jpg',
           fb: 'https://www.facebook.com/eugineu'
+        },
+        {
+          name: 'Jennie Louise Lucena',
+          position: 'Admin Staff',
+          pic: '/img/pics/JENNIE LUCENA.jpg',
+          fb: 'https://www.facebook.com/jennie.lucena.9'
         }
       ]
     }
