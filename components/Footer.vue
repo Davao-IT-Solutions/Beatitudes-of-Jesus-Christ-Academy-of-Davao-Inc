@@ -37,6 +37,11 @@
                       </nuxt-link>
                     </li>
                     <li>
+                      <nuxt-link to="/admin">
+                        Admin &amp; Staff
+                      </nuxt-link>
+                    </li>
+                    <li>
                       <nuxt-link to="/our-teachers">
                         Our Teachers
                       </nuxt-link>

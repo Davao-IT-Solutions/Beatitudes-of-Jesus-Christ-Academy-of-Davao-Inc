@@ -10,7 +10,7 @@
       </div>
       <div class="team-active">
         <no-ssr>
-          <carousel :nav="false" :items="4">
+          <carousel :nav="false" :items="3">
             <div v-for="m in team" :key="m.name" class="single-cat text-center">
               <div class="cat-icon">
                 <img :src="m.pic" alt="">
@@ -38,7 +38,7 @@ export default {
     return {
       team: [
         {
-          name: 'Rebecca L. Ultiano',
+          name: 'Rebecca Ultiano',
           position: 'Directress',
           pic: '/img/pics/REBECCA ULTIANO.jpg',
           fb: 'https://www.facebook.com/rebecca.ultiano'
@@ -50,25 +50,25 @@ export default {
           fb: 'https://www.facebook.com/eunice.ultiano'
         },
         {
-          name: 'Jerome F. Dandan',
+          name: 'Jerome Dandan',
           position: 'Administrative Officer',
           pic: '/img/pics/JEROME DANDAN.jpg',
           fb: 'https://www.facebook.com/jerome.dandan.5'
         },
         {
-          name: 'Ree Anne L. Ultiano',
+          name: 'Ree Anne Ultiano',
           position: 'Registrar',
           pic: '/img/pics/REE ANNE ULTIANO.jpg',
           fb: 'https://www.facebook.com/RAyhang2x'
         },
         {
-          name: 'Jennie Louise A. Lucena',
+          name: 'Jennie Louise Lucena',
           position: 'Admin Staff',
           pic: '/img/pics/JENNIE LUCENA.jpg',
           fb: 'https://www.facebook.com/jennie.lucena.9'
         },
         {
-          name: 'Eiugine L. Ultiano',
+          name: 'Eiugine Ultiano',
           position: 'Administrative Officer',
           pic: '/img/pics/EIUIGINE ULTIANO.jpg',
           fb: 'https://www.facebook.com/eugineu'
